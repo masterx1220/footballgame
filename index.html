@@ -1,0 +1,48 @@
+<html>
+    <head><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
+        <link rel="stylesheet" href="index.css">
+    </head>
+    <body>
+        <div class="banner">
+            <h1>😈 Home of the Red Devils! 👿</h1>
+        </div>
+        <div class="container">
+            <div>
+                <div class="wrapper">
+                    <h3 class="wrapperH3">DEVILS</h3>
+                    <div class="score">
+                        <p id="hScore-el">0</p>
+                    </div>
+                </div>
+            </div>
+            <div>
+                <div class="wrapper">
+                    <h3 class="wrapperH3">TIME</h3>
+                    <div class="timer">
+                        <p id="clock-el" class="timer">00:30</p>
+                    </div>
+                </div>
+            </div>
+            <div>
+                <div class="wrapper">
+                    <h3 class="wrapperH3">VISITORS</h3>
+                    <div class="score">
+                        <p id="vScore-el" class="score">0</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="btnWrapper">
+            🏈🏈🏈🏈🏈
+            <button id="btn2" onclick="add2()">+2</button>
+            <button id="btn3" onclick="add3()">+3</button>
+            <button id="btn7" onclick="add7()">+7</button>
+            <button onclick="retry(); reset()">Try Again</button>
+            🏈🏈🏈🏈🏈
+        </div>
+        <div id="description">
+            <p id="info">It's the last 30 seconds of the championship game. The Devils need a win, are you up to it?</p>
+        </div>                
+        <script src="index.js"></script>
+    </body>
+</html>
